@@ -1,6 +1,6 @@
 {
     "main_manifest_name": {
-        "message": "Ctool 程序开发常用工具"
+        "message": "Dtool 程序开发常用工具"
     },
     "main_manifest_description": {
         "message": "程序开发常用工具,哈希/加解密/编码转换/时间戳/二维码/拼音/IP查询/代码优化/Unicode/正则等..."

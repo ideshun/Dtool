@@ -372,7 +372,7 @@ function render(imports: Set<string>, messages: Array<Array<string>>, lines: Arr
 
     result.push("");
     if (options.inline) {
-        result.push("message Ctool {");
+        result.push("message Dtool {");
         if (messages.length > 0) {
             result.push("");
             for (const message of messages) {
@@ -388,7 +388,7 @@ function render(imports: Set<string>, messages: Array<Array<string>>, lines: Arr
             result.push("");
         }
 
-        result.push("message Ctool {");
+        result.push("message Dtool {");
         result.push(...lines);
         result.push("}");
     }

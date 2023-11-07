@@ -9,11 +9,11 @@
                     <span class="ctool-site-name">Ctool</span>
                 </a>
                 <div class="ctool-option">
-                    <a href="https://github.com/baiy/ctool" rel="external nofollow noreferrer" target="_blank">
+                    <a href="https://github.com/ideshun/Dtool" rel="external nofollow noreferrer" target="_blank">
                         <img
                             alt="GitHub Repo stars"
                             style="height: 26px; opacity: 0.8"
-                            src="https://img.shields.io/github/stars/baiy/ctool?style=social"
+                            src="https://img.shields.io/github/stars/ideshun/Dtool?style=social"
                         />
                     </a>
                     <a class="ctool-theme ctool-hover-opacity" @click="setting.update('theme')">
@@ -25,7 +25,7 @@
                     <Tooltip :content="translation('suggest')">
                         <a
                             class="ctool-suggest ctool-hover-opacity"
-                            href="https://github.com/baiy/Ctool/issues/new"
+                            href="https://github.com/ideshun/Dtool/issues/new"
                             target="_blank"
                         >
                             <Suggest />
@@ -45,15 +45,15 @@
                             {{ translation("install") }}
                         </a>
                         <a
-                            href="https://github.com/baiy/Ctool/releases/latest"
+                            href="https://github.com/ideshun/Dtool/releases/latest"
                             target="_blank"
                             class="ctool-hover-opacity"
                         >
                             {{ translation("download") }}
                         </a>
                     </div>
-                    <a class="ctool-use-time ctool-hover-opacity" href="https://github.com/baiy/ctool">
-                        Ctool v{{ version }} {{ translation("main_last_updated") }}{{ formatDate(buildTimestamp) }}
+                    <a class="ctool-use-time ctool-hover-opacity" href="https://github.com/ideshun/Dtool">
+                        Dtool v{{ version }} {{ translation("main_last_updated") }}{{ formatDate(buildTimestamp) }}
                     </a>
                     <div class="ctool-platform">
                         <Tooltip :content="`Windows ${translation('application')}`">
@@ -67,7 +67,7 @@
                         </Tooltip>
                         <Tooltip :content="`Mac OS ${translation('application')}`">
                             <a
-                                href="https://github.com/baiy/Ctool/releases/latest"
+                                href="https://github.com/ideshun/Dtool/releases/latest"
                                 target="_blank"
                                 class="ctool-hover-opacity"
                             >
@@ -76,7 +76,7 @@
                         </Tooltip>
                         <Tooltip :content="`Linux ${translation('application')}`">
                             <a
-                                href="https://github.com/baiy/Ctool/releases/latest"
+                                href="https://github.com/ideshun/Dtool/releases/latest"
                                 target="_blank"
                                 class="ctool-hover-opacity ctool-platform-bg"
                             >
@@ -112,7 +112,7 @@
                         </Tooltip>
                         <Tooltip :content="`Utools ${translation('extension')}`">
                             <a
-                                href="https://github.com/baiy/Ctool#utools-%E5%AE%89%E8%A3%85"
+                                href="https://github.com/ideshun/Dtool#utools-%E5%AE%89%E8%A3%85"
                                 target="_blank"
                                 class="ctool-platform-bg ctool-hover-opacity"
                             >
@@ -173,12 +173,12 @@
             <span></span>
             <h3>{{ translation(`contribution_1`) }}</h3>
             <p>{{ translation(`contribution_2`) }}</p>
-            <a href="https://github.com/baiy/Ctool" class="ctool-contribution-button ctool-hover-opacity">
+            <a href="https://github.com/ideshun/Dtool" class="ctool-contribution-button ctool-hover-opacity">
                 <Github />
-                <span>Ctool Github</span>
+                <span>Dtool Github</span>
             </a>
-            <a href="https://github.com/baiy/ctool/graphs/contributors" style="text-align: center" target="_blank">
-                <img src="https://contrib.rocks/image?repo=baiy/ctool" style="max-width: 90%" />
+            <a href="https://github.com/ideshun/Dtool/graphs/contributors" style="text-align: center" target="_blank">
+                <img src="https://contrib.rocks/image?repo=ideshun/Dtool" style="max-width: 90%" />
             </a>
         </section>
         <p>© {{ new Date().getFullYear() }} Ctool.DEV, All rights reserved.</p>

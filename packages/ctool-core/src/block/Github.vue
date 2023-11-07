@@ -1,9 +1,9 @@
 <template>
     <Align class="ctool-github" gap="none">
-        <span class="ctool-github-name" @click="openUrl(`https://ctool.dev/`)">
-            <Icon name="github" :size="12"/> <strong>Ctool</strong>
+        <span class="ctool-github-name" @click="openUrl(`https://w3to.dev/`)">
+            <Icon name="github" :size="12"/> <strong>Dtool</strong>
         </span>
-        <span class="ctool-github-star" v-if="star > 0" @click="openUrl(`https://github.com/baiy/Ctool`)">
+        <span class="ctool-github-star" v-if="star > 0" @click="openUrl(`https://github.com/ideshun/Dtool`)">
             {{ `${star}`.replace(/(\d)(?=(\d{3})+$)/g, "$1,") }}
         </span>
     </Align>
@@ -21,7 +21,7 @@ let star = $ref(storage.get<number>(CACHE_NAME) || 0)
 
 onMounted(() => {
     if (star === 0) {
-        axios({url: 'https://api.github.com/repos/baiy/Ctool'}).then(({data}) => {
+        axios({url: 'https://api.github.com/repos/ideshun/Dtool'}).then(({data}) => {
             const count = data.stargazers_count ? parseInt(data.stargazers_count) : 0
             if (count > 0) {
                 star = count

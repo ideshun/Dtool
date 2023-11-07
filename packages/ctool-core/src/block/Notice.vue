@@ -130,7 +130,7 @@ const mouseleave = () => {
 }
 
 onMounted(() => {
-    load()
+    // load()
     container?.addEventListener('mouseleave', mouseleave)
     container?.addEventListener('mouseover', mouseover)
 })

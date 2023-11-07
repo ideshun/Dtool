@@ -131,7 +131,7 @@ export const runtime = new (class implements PlatformRuntime {
         // 默认添加
         setFeatures({
             "code": "Ctool",
-            "explain": "ctool - 程序开发常用工具",
+            "explain": "Dtool - 程序开发常用工具",
             "cmds": [
                 "Ctool"
             ]

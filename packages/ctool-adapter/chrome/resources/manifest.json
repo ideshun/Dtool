@@ -4,7 +4,7 @@
     "version": "##version##",
     "author": "wo@baiy.org",
     "offline_enabled": true,
-    "homepage_url": "https://github.com/baiy/Ctool",
+    "homepage_url": "https://github.com/ideshun/Dtool",
     "manifest_version": 2,
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "browser_action": {

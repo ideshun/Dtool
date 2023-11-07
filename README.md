@@ -4,7 +4,7 @@
 
 ## 先睹为快
 
-![](https://cdn.jsdelivr.net/gh/baiy/Ctool@master/images/v2.0.0.png)
+![](https://cdn.jsdelivr.net/gh/ideshun/Dtool@master/images/v2.0.0.png)
 
 ## 安装使用
 
@@ -34,7 +34,7 @@
 
 ### 其他桌面客户端安装
 
-- [点击下载](https://github.com/baiy/Ctool/releases)
+- [点击下载](https://github.com/ideshun/Dtool/releases)
 
 ### aur
 
